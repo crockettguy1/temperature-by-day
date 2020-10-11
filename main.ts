@@ -6,6 +6,7 @@ let OldestDay = 0
 let CurrentTemp = 0
 let LastTemp = 0
 let TodayTemp = 0
+basic.showString("Temperature Checking: Every 12 Hours")
 basic.forever(function () {
     for (let index = 0; index < 24; index++) {
         TodayTemp = (TodayTemp + input.temperature()) / 2
