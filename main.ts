@@ -11,8 +11,6 @@ basic.forever(function () {
         TodayTemp = (TodayTemp + input.temperature()) / 2
         basic.pause(900000)
         basic.pause(900000)
-        basic.pause(900000)
-        basic.pause(900000)
     }
     OldestDay = OldDay
     OldDay = Day
